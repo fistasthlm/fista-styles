@@ -1,0 +1,18 @@
+{
+  "name": "fista-styles",
+  "version": "1.0.0",
+  "description": "common styles for fista",
+  "files": [
+    "styles"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fistasthlm/fista-styles.git"
+  },
+  "author": "Peter Holmberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fistasthlm/fista-styles/issues"
+  },
+  "homepage": "https://github.com/fistasthlm/fista-styles#readme"
+}
