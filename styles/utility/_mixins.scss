@@ -51,3 +51,9 @@
 @mixin font-size($size) {
     font-size: ($size/14) + rem;
 }
+
+@mixin only-ie() {
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        @content;
+    }
+}

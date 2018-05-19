@@ -1,0 +1,51 @@
+:global {
+    html {
+        height: 100%;
+        font-size: $font-size-base;
+    }
+
+    body {
+        margin: 0 0 0 0;
+        background-color: black;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        letter-spacing: 0.02em;
+        color: white;
+        line-height: 1;
+    }
+
+    html, body, #root, #root > [data-reactroot] {
+        min-height: 100%;
+        @include only-ie() {
+            height: 100%;
+        }
+    }
+
+    p {
+        margin: 0 0 1em;
+    }
+
+    button:focus, a:focus {
+        outline: none;
+    }
+
+    a {
+        @include user-select(none);
+    }
+
+    input::-ms-clear {
+        display: none;
+    }
+
+    .container {
+        @include breakpoint(md) {
+            padding: 0 1%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @include breakpoint(lg) {
+            max-width: $lg-breakpoint;
+        }
+
+    }
+}
