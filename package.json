@@ -1,6 +1,6 @@
 {
   "name": "fista-styles",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "common styles for fista",
   "files": [
     "styles"
