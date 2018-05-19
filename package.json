@@ -14,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/fistasthlm/fista-styles/issues"
   },
-  "homepage": "https://github.com/fistasthlm/fista-styles#readme"
+  "homepage": "https://github.com/fistasthlm/fista-styles#readme",
+  "scripts": {
+    "version": "npm run dist && git add -A lib package.json",
+    "postversion": "git push && git push --tags"
+  }
 }
