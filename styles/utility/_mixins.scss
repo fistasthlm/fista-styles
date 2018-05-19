@@ -63,3 +63,11 @@
     -moz-box-sizing: $type;
     -webkit-box-sizing: $type;
 }
+
+@mixin user-select($value) {
+    -webkit-touch-callout: $value;
+    -webkit-user-select: $value;
+    -moz-user-select: $value;
+    -ms-user-select: $value;
+    user-select: $value;
+}
