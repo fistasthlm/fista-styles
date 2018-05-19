@@ -57,3 +57,9 @@
         @content;
     }
 }
+
+@mixin box-sizing($type: border-box) {
+    box-sizing: $type;
+    -moz-box-sizing: $type;
+    -webkit-box-sizing: $type;
+}
