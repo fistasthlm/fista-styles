@@ -1,6 +1,6 @@
 {
   "name": "fista-styles",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "common styles for fista",
   "files": [
     "styles"
@@ -16,7 +16,6 @@
   },
   "homepage": "https://github.com/fistasthlm/fista-styles#readme",
   "scripts": {
-    "version": "npm run dist && git add -A lib package.json",
     "postversion": "git push && git push --tags"
   }
 }
